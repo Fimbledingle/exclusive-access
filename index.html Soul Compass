@@ -70,5 +70,9 @@
 </div>
 
 <script src="script.js"></script>
+<p style="text-align:center; font-size:12px; margin-top:20px;">
+  <a href="privacy.html" style="color:#ccc;">Privacy Policy</a> |
+  <a href="disclaimer.html" style="color:#ccc;">Disclaimer</a>
+</p>
 </body>
 </html>

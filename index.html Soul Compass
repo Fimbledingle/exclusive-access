@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soul City Revelation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover your symbolic Soul City through a spiritual reflection experience.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- STEP 1 -->
+  <div id="step1" class="card active">
+    <h1>🌌 Discover Your Soul City</h1>
+    <p>
+      Your birth date carries symbolic energy.  
+      This spiritual reflection aligns your essence with a city that resonates with your soul.
+    </p>
+
+    <label>Birth Month</label>
+    <input type="number" id="month" placeholder="e.g. 7" min="1" max="12">
+
+    <label>Birth Day</label>
+    <input type="number" id="day" placeholder="e.g. 21" min="1" max="31">
+
+    <button onclick="goToStep2()">Reveal My Soul City</button>
+
+    <small class="note">
+      This experience is symbolic and for reflection purposes only.
+    </small>
+  </div>
+
+  <!-- STEP 2 -->
+  <div id="step2" class="card">
+    <h2>✨ Synchronizing with the Cosmic Flow</h2>
+    <p class="loading-text">
+      Scanning the world map through the lens of your zodiac energy…
+    </p>
+    <div class="loader"></div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div id="step3" class="card">
+    <h2>🔐 Human Verification Required</h2>
+    <p>
+      To unlock your personalized Soul City result, please complete a quick verification below.
+    </p>
+
+    <!-- OGADS CONTENT LOCKER -->
+    <div id="ogads-locker">
+      <!-- INSERT YOUR OGADS CONTENT LOCKER CODE HERE -->
+    </div>
+
+    <small class="note">
+      One short offer is required to continue.
+    </small>
+  </div>
+
+  <!-- STEP 4 -->
+  <div id="step4" class="card">
+    <h2>🌍 Your Soul City Is…</h2>
+    <h1 id="resultCity"></h1>
+    <p>
+      This city symbolically represents the rhythm, energy, and path your soul resonates with.
+    </p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
